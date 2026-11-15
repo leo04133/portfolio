@@ -1,0 +1,9 @@
+:root{--oat:#efe6d6;--bean:#3b2a20;--gold:#d99a2b;--leaf:#6f7d4f;--cream:#fbf6ec;
+  --serif:"Songti TC","Noto Serif TC",serif;--sans:"PingFang TC","Heiti TC",sans-serif}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{background:var(--oat);color:var(--bean);font-family:var(--sans);position:relative}
+.brand{position:absolute;left:84px;bottom:72px;font:600 30px var(--serif);letter-spacing:.3em}
+.brand small{display:block;font:400 18px var(--sans);letter-spacing:.4em;opacity:.6;margin-top:8px}
+.no{position:absolute;right:84px;bottom:76px;font:400 22px var(--sans);letter-spacing:.2em;opacity:.55}
+.dot{position:absolute;border-radius:50%;background:var(--gold)}
